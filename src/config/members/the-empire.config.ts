@@ -1,0 +1,107 @@
+import { WorldConfig } from '../../engine/types';
+
+export const theEmpireConfig: WorldConfig = {
+  id: 'the-empire',
+  name: 'The Empire',
+  role: 'Founding Syndicate',
+  tagline: 'Three Ambitious Teens Building Something Great in the Upcoming Years',
+  bioPlaceholder: '[EMPIRE_VISION]',
+  accentColor: '#E5B869',
+  secondaryColor: '#C5A059',
+  themeBackground: '#08090C',
+  isHub: true,
+  heroBadge: 'THREE TEEN FOUNDERS • BUILDING FROM FIRST PRINCIPLES',
+  missionStatement:
+    'We are three ambitious teenagers on a mission to build a sovereign empire on our own in the upcoming years. Combining full-stack software & cybersecurity, top 2% global gold trading, and high-retention cinematic video editing. We are laying the groundwork today to build something massive — and we are actively looking for other ambitious young minds to join us.',
+  stats: [
+    { label: 'Founding Pillars', value: '3 Ambitious Teens', description: 'Abhi, Aditya, Ayush' },
+    { label: 'Core Disciplines', value: 'Tech • Trading • Cinema', description: 'Complete Sovereign Stack' },
+    { label: 'Timeline Horizon', value: 'Upcoming Years', description: 'Relentless Daily Groundwork' },
+    { label: 'Syndicate Status', value: 'Finding Ambitious People', description: 'Direct Circle Open' },
+  ],
+  recruitmentTitle: 'Join Us — <em>We Are Finding Ambitious People Like Us</em>',
+  recruitmentBody:
+    'We are three teens who believe in building an empire on our own terms. We are not waiting for permission — we are coding, mastering financial markets, and creating world-class cinema every single day. If you are an ambitious coder, quantitative trader, video editor, designer, or builder who wants to build something truly great in the upcoming years, connect with us. Reach out directly via email or Instagram.',
+  scenes: [
+    {
+      id: '01_genesis',
+      sceneNumber: 1,
+      title: 'The Foundational Pact.',
+      subtitle: 'Three Teenagers Building from Scratch',
+      metaphor: 'Foundational obsidian prism & brushed brass rings in the void',
+      eyebrow: 'Phase 01 — Groundwork & Vision',
+      tags: ['Three Equal Pillars', 'Pact of Ambition', 'First Principles'],
+      narrativeCopy: {
+        heading: 'Phase 01: The Groundwork',
+        body: 'The convergence of three ambitious teenagers committing to relentless discipline. Uniting software systems engineering, top-tier gold market trading, and cinematic video storytelling into a long-term sovereign blueprint.',
+      },
+      assetPaths: {
+        stillSource: 'assets/the-empire/source/still_01.png',
+        stillDist: 'assets/the-empire/dist/stills/still_01.png',
+        videoSource: 'assets/the-empire/source/video_01.mp4',
+        videoDist: 'assets/the-empire/dist/vid/video_01.mp4',
+      },
+      maturityLevel: 'LEVEL_1_PLACEHOLDER',
+    },
+    {
+      id: '02_foundry',
+      sceneNumber: 2,
+      title: 'The Stealth Foundry.',
+      subtitle: 'Daily Craft, High-Speed Execution & Skill Compounding',
+      metaphor: 'Automated robotic assembly arms & molten gold alloy channels',
+      eyebrow: 'Phase 02 — Relentless Mastery',
+      tags: ['Full-Stack Apps', 'Gold Trading Precision', 'Kinetic Cinema'],
+      narrativeCopy: {
+        heading: 'Phase 02: Daily Craft & Execution',
+        body: 'Building full-stack apps and cybersecurity tools, analyzing XAU/USD gold order flow in the top 2%, and mastering DaVinci & CapCut editing to prepare for high-impact execution.',
+      },
+      assetPaths: {
+        stillSource: 'assets/the-empire/source/still_02.png',
+        stillDist: 'assets/the-empire/dist/stills/still_02.png',
+        videoSource: 'assets/the-empire/source/video_02.mp4',
+        videoDist: 'assets/the-empire/dist/vid/video_02.mp4',
+      },
+      maturityLevel: 'LEVEL_1_PLACEHOLDER',
+    },
+    {
+      id: '03_agora',
+      sceneNumber: 3,
+      title: 'The Builder Agora.',
+      subtitle: 'Welcoming Relentless Young Minds',
+      metaphor: 'Terraced granite amphitheater & monolithic figures at a hearth',
+      eyebrow: 'Phase 03 — Expanding The Circle',
+      tags: ['Ambitious Teens', 'Shared Mindshare', 'Future Synergies'],
+      narrativeCopy: {
+        heading: 'Phase 03: Finding People Like Us',
+        body: 'Connecting with hungry, driven builders and ambitious creators. Sharing knowledge, building synergy, and preparing a world-class young collective for the upcoming years.',
+      },
+      assetPaths: {
+        stillSource: 'assets/the-empire/source/still_03.png',
+        stillDist: 'assets/the-empire/dist/stills/still_03.png',
+        videoSource: 'assets/the-empire/source/video_03.mp4',
+        videoDist: 'assets/the-empire/dist/vid/video_03.mp4',
+      },
+      maturityLevel: 'LEVEL_1_PLACEHOLDER',
+    },
+    {
+      id: '04_citadel',
+      sceneNumber: 4,
+      title: 'The Sovereign Citadel.',
+      subtitle: 'Building Greatness in Upcoming Years',
+      metaphor: 'Colossal tiered metropolis crowned with a golden beacon',
+      eyebrow: 'Phase 04 — Sovereign Scale',
+      tags: ['Upcoming Years', 'Generational Scale', 'Independent Empire'],
+      narrativeCopy: {
+        heading: 'Phase 04: The Future Empire',
+        body: 'The long-term vision realized: launching independent high-impact ventures, compounding sovereign capital, and building an enduring empire on our own terms.',
+      },
+      assetPaths: {
+        stillSource: 'assets/the-empire/source/still_04.png',
+        stillDist: 'assets/the-empire/dist/stills/still_04.png',
+        videoSource: 'assets/the-empire/source/video_04.mp4',
+        videoDist: 'assets/the-empire/dist/vid/video_04.mp4',
+      },
+      maturityLevel: 'LEVEL_1_PLACEHOLDER',
+    },
+  ],
+};
