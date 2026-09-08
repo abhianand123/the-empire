@@ -257,6 +257,13 @@ function renderTheEmpireHub(world: WorldConfig) {
           <div class="brand-subtitle">Three Teen Founders • Building in Upcoming Years</div>
         </div>
       </div>
+      <div class="footer-credit">
+        <span class="credit-label">Engineered & Developed by</span>
+        <a href="#abhi-anand" data-target-world="abhi-anand" class="credit-author">
+          <span class="credit-name">Abhi Anand</span>
+          <span class="credit-role">• Web & App Developer / Cybersecurity</span>
+        </a>
+      </div>
       <div class="footer-links">
         ${memberWorlds.map((m) => `<a href="#${m.id}" data-target-world="${m.id}">${m.name}</a>`).join('')}
       </div>
@@ -424,6 +431,13 @@ function renderMemberPortfolio(world: WorldConfig) {
           <div class="brand-title" style="font-size: 16px;">${world.name}</div>
           <div class="brand-subtitle">${world.role}</div>
         </div>
+      </div>
+      <div class="footer-credit">
+        <span class="credit-label">Engineered & Developed by</span>
+        <a href="#abhi-anand" data-target-world="abhi-anand" class="credit-author">
+          <span class="credit-name">Abhi Anand</span>
+          <span class="credit-role">• Web & App Developer / Cybersecurity</span>
+        </a>
       </div>
       <div class="footer-links">
         <a href="#the-empire" data-target-world="the-empire">The Empire</a>
